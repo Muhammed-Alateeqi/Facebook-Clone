@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FbStyle.css">
+    <link rel="stylesheet" href="SignUp.css">
+    <title>Facebook – log in or sign up<title></title>
+</title>
+</head>
+<body >
+
+    <!-- main div of login page -->
+<div class="main-LoginDiv">
+    <div class="Fb-font">
+        <h1 class="fb-h1" >
+            facebook
+        </h1>
+        <h2>
+            Facebook helps you connect and share <br>
+             with the people in your life.
+        </h2>
+    </div>
+    <!-- block form's div -->
+    <div class="form-div">
+<form  action="index.html" class="form-content" novalidate onsubmit="return loginValidation()">
+ <input id="email" class="input-1" type="email" placeholder="Email address or phone number">
+ <p  id="error-message" class="error-message">The email address or mobile number you entered isn't <br> connected to an account.  <a href="#" 
+    style="text-decoration: none;color: #f02849; font-weight:700 ;">Find your account and log in.</a> 
+</p>
+ <input id="pass" class="input-2" type="password" placeholder="Password">
+ <p id="error-pass" class="error-pass-message">The password that you've entered is incorrect. 
+     <a href="#" style="text-decoration: none;color: #f02849; font-weight:700 ;">Forgotten password?</a> </p>
+     <input id="log-btn" class="input-3" type="submit" value="Log in" >
+ <a herf="#" style="text-decoration: none;"><p class="p-form" >Forgotten password?</p></a>
+ <div class="hr-form">
+</div>
+<input class="input-4" type="submit" value="Create new account" id="signup-btn">
+</form>
+</div>
+</div>
+
+<!--  SignUP Page -->
+
+
+
+<div id="signup-modal" class="modal">
+  <div class="modal-content">
+<div class="SignUP_Main" id="sing-show">
+    <form class="SignUp-form" action="https://www.facebook.com/" onsubmit="return SgininValidation()">
+        <div class="head">
+    <span class="close">&times;</span>
+            <h1 class="h1-sign">Sign Up</h1>
+            <p class="p-sign">It's quick and easy.</p>
+            <hr>
+        </div>
+        <div class="first-last-name">
+        <input class="box-name" type="text" id="firstN" placeholder="First name">
+        <input class="box-name" type="text" id="lastN" placeholder="Surname">
+    </div>
+    <div class="email-pass">
+        <input class="inforamtion1" id="phone" type="tel" placeholder=" Mobil number or email address" >
+        <input class="inforamtion2" id="pass-w" type="password" placeholder=" New password">
+    </div>
+        <p class="p1">Date of birth ?</p>
+        <div class="select-1">
+        <select class="day" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <select class="month" >
+            <option value="Jun">Jun</option>
+            <option value="May">May</option>
+            <option value="Augest">Augest</option>
+        </select>
+        <select class="year" >
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2023">2023</option>
+        </select>
+    </div>       
+     <p class="p2">Gender ?</p>
+    <div class="select-2">
+        <div class="female">
+        <label>Female</label>
+        <input class="radio1" type="radio" name="name">
+        </div>
+        <div class="male">
+        <label>Male</label>
+        <input class="radio2" type="radio" name="name">
+    </div>
+    </div>
+    <p class="p3">People who use our service may have uploaded contact information to <br> 
+        Facebook. <a class="learnmore" href="#">Learn more.</a> 
+        <br>
+        <br>
+        By clicking Sign Up, you agree to our Terms, Privacy Policy  Cookies Policy. <br>  
+        You may receive SMS notifications from us and can opt out time.</p>
+        <input class="sign-up" type="submit" value="Sign Up">
+    </form>
+</div>
+    <!-- sign-up form goes here -->
+  </div>
+</div>
+
+
+
+<script src="JavaS.js"></script>
+</body>
+</html>

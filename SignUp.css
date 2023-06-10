@@ -1,0 +1,266 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+/* the css page for sign up page */
+
+.SignUP_Main{
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;    
+    /* display: none; */
+}
+
+.h1-sign{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.p-sign{
+    margin-left: 10px;
+    opacity: .8;
+}
+
+hr{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: .4;
+
+}
+.SignUp-form{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px; 
+}
+.first-last-name{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.email-pass{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.box-name{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.261);
+    background-color: rgba(107, 107, 107, 0.075);
+    font-size: 17px;
+    width: 170px;
+    padding: 10px 7px;
+    outline: none;
+}
+.inforamtion1{
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.261);
+    background-color: rgba(107, 107, 107, 0.075);
+    font-size: 17px;
+    width: 365px;
+    padding: 10px 7px;
+    outline: none;
+}
+.inforamtion2{
+    margin-top:10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.261);
+    background-color: rgba(107, 107, 107, 0.075);
+    font-size: 17px;
+    width: 365px;
+    padding: 10px 7px;
+    outline: none;
+    
+}
+.p1{
+    margin-left: 13px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    opacity: .9;
+    font-weight: 500;
+}
+
+.select-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.day{
+    outline: none;
+    padding-right: 90px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align:left;
+    border-radius: 3px;
+    margin-left: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+.month{
+    outline: none;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align:left;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+.year{
+    outline: none;
+    padding-right: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align:left;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.p2{
+    margin-left: 13px;
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: .9;
+    font-weight: 500;
+}
+.select-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.female{
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 7px 25px;
+    border-radius: 5px;
+    margin-right: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.male{
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 7px 25px;
+    border-radius: 5px;
+    margin-right: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.radio1{
+    margin-left: 10px;
+}
+.radio2{
+    margin-left: 10px;
+}
+.p3{
+    margin-top: 10px;
+    font-size: 11px;
+    position: relative;
+    left: 15px;
+    width: auto;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    opacity: .7;
+    margin-bottom: 30px;
+}
+.sign-up{
+    background-color: #42b72a;;
+    padding: 6px;
+    border-radius: 8px;
+    width:220px;
+    border: 1px ;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.sign-up:hover{
+    background-color: #4b963dac;;
+    padding: 6px;
+    border-radius: 8px;
+    width:220px;
+    border: 1px ;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;  
+}
+    
+.learnmore{
+    text-decoration: none;
+    color: rgb(3, 31, 77);
+}
+.learnmore:hover{
+    text-decoration: none;
+    text-decoration: underline;
+}
+.icon{
+    position: absolute;
+    left: 390px;
+    top: 25px;
+}
+
+
+/* -------- */
+/* The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe00;
+    margin:  auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
